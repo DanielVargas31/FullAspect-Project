@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	
+	
+</head>
+
+<body>
+{% comment %} CONTENEDOR DEL BANNER {% endcomment %}
+<div id="wrapper">
+{% comment %} contenido pantalla {% endcomment %}
+        <div class="screenshot">
+            <div class="s-container">
+                <div id="main">
+                {% comment %} parte de arriba celular {% endcomment %}
+                    <div class="header">
+                    {% comment %} logo {% endcomment %}
+                        <div class="logo">
+                            <img src="https://umarkets.net/wp-content/themes/umarkets/assets/images/logo.svg" alt="Imagen">
+                        </div>
+                    </div>
+                    {% comment %} contenido banner {% endcomment %}
+			
+                        <div class="form-wrapper">
+                            <h1><span class="text-active">GUÍA DE FOREX:</span> GANE DINERO DESDE LA COMODIDAD DE SU HOGAR</h1>
+                            <h2>Dos secretos para obtener ganancias: fe en el éxito y un poco de preparación.<br>
+                            El libro "Conceptos básicos del trading" le
+                                dará las herramientas para operar en el Mercado de
+                                Forex con ejemplos simples.</h2>
+                            <h2>Complete el formulario de registro y reciba su <b class="text-active">e-book</b></h2>
+                    {% comment %} formulario registro {% endcomment %}
+                            <form class="fondo">
+      
+                                <center><label for="name">Tu Nombre</label></center>
+                                <input type="text" id="name">
+          
+                                <center><label for="email">Correo Electronico</label></center>
+                                <input type="email" id="email"> </center>
+          
+                                <center><label for="password">Numero de Contacto</label></center>
+                                <input type="number" id="password">
+          
+                                <div class="checkbox">
+                                    <input type="checkbox" id="check1">
+                                    <label class="checklabel"for="check1">Estoy de acuerdo con recibir llamadas y correos de el equipo de <b>Umarkets</b>.</label><br>
+                                </div>
+          
+                                <div class="checkbox">
+                                    <input type="checkbox" id="check2">
+                                    <label class="checklabel"for="check2">Acepto las condiciones para procesar los datos personales.</label><br>
+                                </div>
+          
+                                <center><button>REGISTRATE</button></center>
+                            </form>
+                        </div>
+                </div>
+                <nav>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    {% comment %} footer {% endcomment %}
+    <footer class="fes-footer">
+		<div class="fes-footer-img"></div>
+		<p class="fes-footer__text">
+			<a href="https://www.umarkets.ai/es/legal-documentation/terms-and-conditions/" target="_blank" class="fes-footer__link">Términos y Condiciones</a>
+			<span class="fes-footer__hide-txt">|</span>
+			<a href="https://www.umarkets.ai/es/legal-documentation/privacy-policy/" target="_blank" class="fes-footer__link">Política De Privacidad </a>
+			<span class="fes-footer__hide-txt">|</span>
+			<a href="https://www.umarkets.ai/es/legal-documentation/risk-disclaimer/" target="_blank" class="fes-footer__link">Declaración sobre riesgos</a>
+		</p>
+		<p class="fes-footer__text footer-text-bottom">Operar en el mercado financiero le permite obtener grandes beneficios, pero también implica ciertos riesgos. Antes de comenzar
+			a operar consulte con uno de nuestros
+			<br class="footer-br"> representantes. Al rellenar el formulario de registro en esta página, está aceptando compartir sus datos personales.
+		</p>
+	</footer>
+
+</body>
+</html>
+
+
+
+estilos
+
+
